@@ -1,0 +1,50 @@
+.content {
+    border-collapse: collapse;
+}
+
+.contact tr {
+    height: 7rem;
+    width: 480px;
+
+}
+
+.contact th {
+    text-align: right;
+    width: 150px;
+    /* background-color: #FCECEC; */
+    color: #4D4D4D;
+    border-bottom: solid 1px #fff;
+
+
+}
+
+.contact td {
+    width: 480px;
+    padding-left: 1rem;
+    /* border: solid 10px #FCECEC; */
+}
+
+.contact tr:last-child th {
+    border-color: #FCECEC;
+}
+
+.button {
+    margin: auto;
+    display: block;
+    background-color: #008B8B;
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+}
+
+.button:hover{
+    opacity: 0.6;
+  }
+
+input.text {
+    width: 480px;
+}
+
+textarea{
+    width: 480px;
+}
